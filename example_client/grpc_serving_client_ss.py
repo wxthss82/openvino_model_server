@@ -81,7 +81,7 @@ processing_times = np.zeros((0),int)
 # imgs = imgs / np.ptp(imgs) * 255  # Normalization 0-255
 # #imgs = imgs[:,:,:,::-1] # RGB to BGR
 
-shape = [100, 3, 288, 512]
+shape = [300, 3, 288, 512]
 imgs = np.random.rand(*shape).astype(np.float32)
 
 
